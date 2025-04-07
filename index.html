@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Multipage Educational Website using html, css, and javascript</title>
+    
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+
+    <!-- Swiper Js -->
+    <link 
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+</head>
+<body>
+    <nav>
+       <div class="container nav_container">
+        <a href="index.html"><h4>Roxy Billion Academy</h4></a>
+        <ul class="nav__menu">
+           <li><a href="index.html">Home</a></li>
+           <li><a href="about.html">About</a></li>
+           <li><a href="course.html">Courses</a></li>
+           <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <button id="open-menu-btn"><i class="fa fa-bars" aria-hidden="true"></i></button>
+        <button id="close-menu-btn"><i class="fa fa-times-circle" aria-hidden="true"></i></button>
+       </div>
+    </nav>
+
+
+
+    <!-- header -->
+
+
+    <header>
+        <div class="container header__container">
+            <div class="header__left">
+               <h1>Grow your skills to advance in your career path.</h1>
+               <p>Billion mobile academy is an online based academy platform 
+                which is solely online based. its purpose is to enrich students
+                all over the world with knowledge in variety of languages, thereby 
+                enabling students succeed at their various aspect of their careers.
+               </p>
+               <a href="course.html" class="btn btn-primary">Get Started</a>
+            </div>
+            <div class="header__right">
+                <div class="header__right-image">
+                    <img src="https://images.unsplash.com/photo-1606761568499-6d2451b23c66?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8dW5pdmVyc2l0eXxlbnwwfHwwfHx8MA%3D%3D">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- End of Header -->
+
+
+
+    <!-- categories section -->
+
+    <section class="categories">
+        <div class="container categories__container">
+            <div class="categories__left">
+                <h1>Categories</h1>
+                <p>
+                    There are are a lot of teaching aspects varying from programming
+                    languages, data analyst, software engineering as well as school 
+                    subjects, such as mathematics , chemistry, biology etc.
+                </p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+            <div class="categories__right">
+                <article class="category">
+                    <span class="category__icon"><i class="fa fa-code" aria-hidden="true"></i></span>
+                    <h5>Web development</h5>
+                    <p>Websites are made using html, css, javascript even python 
+                        in some cases depending on the use cases.
+                    </p>
+                </article>
+                <article class="category">
+                    <span class="category__icon"><i class="fa fa-laptop" aria-hidden="true"></i></span>
+                    <h5>Machine Learning</h5>
+                    <p>Machine learning generaly means studying computer natural 
+                        language which is 0's and 1's .
+                    </p>
+                </article>
+                <article class="category">
+                    <span class="category__icon"><i class="fa fa-desktop" aria-hidden="true"></i></span>
+                    <h5>Artificial intelligence</h5>
+                    <p>Websites are made using html, css, javascript even python 
+                        in some cases depending on the use cases.
+                    </p>
+                </article>
+                <article class="category">
+                    <span class="category__icon"><i class="fa fa-database" aria-hidden="true"></i></span>
+                    <h5>Data Analyst</h5>
+                    <p>This involves the storage, processing and manipulation of data
+                        in an organised manner .
+                    </p>
+                </article>
+                <article class="category">
+                    <span class="category__icon"><i class="fa fa-book" aria-hidden="true"></i></span>
+                    <h5>Educators</h5>
+                    <p>Also known as teachers , they are responsible for educating 
+                        the students in their various fields.
+                    </p>
+                </article>
+                <article class="category">
+                    <span class="category__icon"><i class="fa fa-android" aria-hidden="true"></i></span>
+                    <h5>Applications</h5>
+                    <p>They are made using kotlin , andriod studio , etc 
+                        to enable proper function and efficiency.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- End of categories -->
+
+
+
+    <!-- courses section -->
+
+    <section class="courses">
+        <h2>Our Popular Courses</h2>
+       <div class="container courses__container">
+          <article class="course">
+             <div class="course__image">
+               <img src="https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=600">
+             </div>
+             <div class="course__info">
+                <h4>Responsive Social Media Website UI Design</h4>
+                <p>Responsive means to respond and web design means to design website. Therefore, responsive web design generally means website that respond to or resize or adjust itself depending upon screen size it is being seen through.
+                    It automatically adjusts to fit user's screen whether it's desktop, laptop, mobile, tablet, etc</p>
+               <a href="course.html" class="btn btn-primary">Learn More</a>
+             </div>
+          </article>
+
+          <article class="course">
+            <div class="course__image">
+              <img src="https://images.pexels.com/photos/1083792/pexels-photo-1083792.jpeg?auto=compress&cs=tinysrgb&w=600">
+            </div>
+             <div class="course__info">
+                <h4>Responsive SmartHome Website Design</h4>
+                <p>Responsive Web Design comprises two words i.e., responsive and web design.</p>
+               <a href="course.html" class="btn btn-primary">Learn More</a>
+             </div>         
+         </article>
+
+         <article class="course">
+            <div class="course__image">
+              <img src="https://images.pexels.com/photos/4185957/pexels-photo-4185957.jpeg?auto=compress&cs=tinysrgb&w=600">
+            </div>
+             <div class="course__info">
+                <h4>Responsive Admin Dashboard UI Design</h4>
+                <p>Responsive Web Design comprises two words i.e., responsive and web design.</p>
+               <a href="course.html" class="btn btn-primary">Learn More</a>
+             </div>         
+         </article>
+       </div>
+    </section>
+
+    <!-- End of Section -->
+
+
+
+
+    <!-- Frequently Asked Questions -->
+
+     <section class="faqs">
+       <div class="container faqs__container">
+          <article class="faq">
+            <div class="faq__icon"><i class="fa fa-plus" aria-hidden="true"></i></div>
+            <div class="question__answer">
+                <h4>How do i choose the right course for me?</h4>
+                <p>1) Identify which category you fall under.
+                    2) Ask yourself why you want to study.
+                    3) Decide on what career you want. ...
+                    4) Study Destination. ...
+                    5) Mode of study. ...
+                    6) Identify the most important factors you are considering. ...
+                    7) Research. ...
+                    8) Narrow down your options.</p>
+            </div>
+          </article>
+
+          <article class="faq">
+            <div class="faq__icon"><i class="fa fa-plus" aria-hidden="true"></i></div>
+            <div class="question__answer">
+                <h4>which programming language is the easiest?</h4>
+                <p>Programming Languages: Easiest to Hardest Ranked in Order
+                    HTML, JavaScript, Python, PHP, and Ruby are considered the easiest programming languages to learn.
+                     They have relatively simple syntax and have readymade functions or libraries.</p>
+            </div>
+          </article>
+
+          <article class="faq">
+            <div class="faq__icon"><i class="fa fa-plus" aria-hidden="true"></i></div>
+            <div class="question__answer">
+                <h4>Which programming language is the best?</h4>
+                <p>The 10 Best Programming Languages to Learn
+                    1. Python
+                    2. C#
+                    3. C++
+                    4. JavaScript
+                    5. PHP
+                    6. Swift
+                    7. Java
+                    8. Go
+                    9. SQL
+                    10. Ruby
+                    there are lots of applications and websites including games which are 
+                    created using these programming languages. 
+                    NB:There are more than 8,000 programming languages.
+                    </p>
+            </div>
+          </article>
+
+          <article class="faq">
+            <div class="faq__icon"><i class="fa fa-plus" aria-hidden="true"></i></div>
+            <div class="question__answer">
+                <h4>When is the best time to study?</h4>
+                <p>According to scientists, the brain is most alert and teachable at 10 am–2 pm and 4 pm–10 pm. (Source: Amber Student).
+                     If you would like to optimise your attention span and practise deep learning, then science advises you to study between the hours of 4 am and 7 am. This period is best for deep focus.</p>
+            </div>
+          </article>
+
+          <article class="faq">
+            <div class="faq__icon"><i class="fa fa-plus" aria-hidden="true"></i></div>
+            <div class="question__answer">
+                <h4>How do i learn a programming language effectively?</h4>
+                <p>Here are some tips to get started:
+                   1.Take an introductory coding course online. Platforms like Billion Mobile Academy great interactive courses for coding beginners. ...
+                   2.Learn the basics. ...
+                   3.Join forums and communities. ...
+                   4.Use online code playgrounds. ...
+                   5.Develop logical thinking skills.</p>
+            </div>
+          </article>
+
+          <article class="faq">
+            <div class="faq__icon"><i class="fa fa-plus" aria-hidden="true"></i></div>
+            <div class="question__answer">
+                <h4>Can i learn programming by taking on projects?</h4>
+                <p>Building projects: Building projects while following tutorials is a great way to improve your programming skills and apply the concepts you learn to real-world scenarios. 4. Practice, practice, practice:
+                     The more you practice coding, the more you'll understand how the concepts work and how to apply them.</p>
+            </div>
+          </article>
+
+          <article class="faq">
+            <div class="faq__icon"><i class="fa fa-plus" aria-hidden="true"></i></div>
+            <div class="question__answer">
+                <h4>Common beginners errors in programming ?</h4>
+                <p>The 7 Most Common Types of Errors in Programming and How to Avoid Them
+                   1.Syntax Errors.
+                   2.Logic Errors.
+                   3.Compilation Errors.
+                   4.Runtime Errors.
+                   5.Arithmetic Errors.
+                   6.Resource Errors.
+                   7.Interface Errors.</p>
+            </div>
+          </article>
+
+          <article class="faq">
+            <div class="faq__icon"><i class="fa fa-plus" aria-hidden="true"></i></div>
+            <div class="question__answer">
+                <h4>What are the branches of computer science?</h4>
+                <p>Artificial intelligence. ...
+                    Computer-human interface. ...
+                    Game design. ...
+                    Networks. ...
+                    Computer graphics. ...
+                    Information security. ...
+                    Data science. ...
+                    Programming languages.</p>
+            </div>
+          </article>
+
+          <article class="faq">
+            <div class="faq__icon"><i class="fa fa-plus" aria-hidden="true"></i></div>
+            <div class="question__answer">
+                <h4>Top 10  university courses in the world?</h4>
+                <p>1.Cybersecurity. ...
+                   2.Biotechnology and Bioinformatics. ...
+                   3.Computer Engineering. ...
+                   4.Medicine. ...
+                   5.Business Analytics. ...
+                   6.Robotics and Automation. ...
+                   7.Psychology. ...
+                   8.Finance.
+                   9.Computer programming...
+                   10.Data Analyst.. </p>
+            </div>
+          </article>
+       </div>
+     </section>
+
+     <!-- End of courses -->
+    
+
+     <!-- Testimonials -->
+
+     <section class="container testimonials__Container mySwiper">
+        <h2>Students Testimonials</h2>
+        <div class="swiper-wrapper">
+            <article class="testimonial swiper-slide">
+               <div class="avatar">
+                <img src="https://images.unsplash.com/photo-1621274790572-7c32596bc67f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dW5pdmVyc2l0eSUyMHN0dWRlbnR8ZW58MHx8MHx8fDA%3D">
+               </div>
+               <div class="testimonial__info">
+                  <h5>Roxy Gold</h5>
+                  <small>Student</small>
+               </div>
+               <div class="testimonial__body">
+                   <p>
+                    In my experience all the teachers are very supportive and friendly and the placement process has been very smooth throughout.
+                     I would always be very grateful for the lifelong connections I made my course perfectly.
+                   </p>
+               </div>
+            </article>
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                 <img src="https://images.unsplash.com/photo-1544717305-2782549b5136?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHN0dWRlbnRzfGVufDB8fDB8fHww">
+                </div>
+                <div class="testimonial__info">
+                   <h5>Bayley Jane</h5>
+                   <small>Student</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>
+                     In my experience all the teachers are very supportive and friendly and the placement process has been very smooth throughout.
+                      I would always be very grateful for the lifelong connections I made my course perfectly.
+                    </p>
+                </div>
+             </article>
+             <article class="testimonial swiper-slide">
+                <div class="avatar">
+                 <img src="https://plus.unsplash.com/premium_photo-1664372145513-fb7cbfa3e3c4?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8dW5pdmVyc2l0eSUyMHN0dWRlbnR8ZW58MHx8MHx8fDA%3D">
+                </div>
+                <div class="testimonial__info">
+                   <h5>Renley Redfield</h5>
+                   <small>Student</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>
+                     In my experience all the teachers are very supportive and friendly and the placement process has been very smooth throughout.
+                      I would always be very grateful for the lifelong connections I made my course perfectly.
+                    </p>
+                </div>
+             </article>
+             <article class="testimonial swiper-slide">
+                <div class="avatar">
+                 <img src="https://images.unsplash.com/photo-1567168544813-cc03465b4fa8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8dW5pdmVyc2l0eSUyMHN0dWRlbnR8ZW58MHx8MHx8fDA%3D">
+                </div>
+                <div class="testimonial__info">
+                   <h5>Christian</h5>
+                   <small>Student</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>
+                     In my experience all the teachers are very supportive and friendly and the placement process has been very smooth throughout.
+                      I would always be very grateful for the lifelong connections I made my course perfectly.
+                    </p>
+                </div>
+             </article>
+             <article class="testimonial swiper-slide">
+                <div class="avatar">
+                 <img src="https://images.unsplash.com/photo-1521702813222-1943f3fb9c07?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHVuaXZlcnNpdHklMjBzdHVkZW50fGVufDB8fDB8fHww">
+                </div>
+                <div class="testimonial__info">
+                   <h5>Steven Austin</h5>
+                   <small>Student</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>
+                     In my experience all the teachers are very supportive and friendly and the placement process has been very smooth throughout.
+                      I would always be very grateful for the lifelong connections I made my course perfectly.
+                    </p>
+                </div>
+             </article>
+             <article class="testimonial swiper-slide">
+                <div class="avatar">
+                 <img src="https://plus.unsplash.com/premium_photo-1658506724186-63a705425f89?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHVuaXZlcnNpdHklMjBzdHVkZW50fGVufDB8fDB8fHww">
+                </div>
+                <div class="testimonial__info">
+                   <h5>Thomas Moxley</h5>
+                   <small>Student</small>
+                </div>
+                <div class="testimonial__body">
+                    <p>
+                     In my experience all the teachers are very supportive and friendly and the placement process has been very smooth throughout.
+                      I would always be very grateful for the lifelong connections I made my course perfectly.
+                    </p>
+                </div>
+             </article>
+             
+        </div>
+        <div class="swiper-pagination"></div>
+     </section>
+
+
+    <!-- footer -->
+
+     <footer>
+        <div class="container footer__container">
+          <div class="footer__1">
+           <a href="index.html" class="footer__logo"><h4>Billion Mobile Academy</h4></a>
+           <p>let us handle all your digital problems at affordable rate.</p>
+          </div>
+          <div class="footer__2">
+            <h4>Permalinks</h4>
+            <ul class="permalinks">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="courses.html">Courses</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div footer="footer__3">
+            <h4>Primary</h4>
+            <ul class="privacy">
+              <li><a href="#">Privacy</a></li>
+              <li><a href="#">Terms and Conditions</a></li>
+              <li><a href="#">Refund Policy</a></li>
+            </ul>
+          </div>
+          <div class="footer__4">
+            <h4>Contact Us</h4>
+            <div>
+                <p>+234-810-707-4843</p>
+                <p>giftdivine787@gmail.com</p>
+            </div>
+            <ul class="footer__socials">
+                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+              </ul>
+          </div>
+
+
+        </div>
+        <div class="footer__copyright">
+            <small>Copyright &copy; Billion Mobile Academy</small>
+        </div>
+     </footer>
+
+
+     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+     <script src="script.js"></script>
+
+    <!-- swiperjs -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            // when the window width is >= 600px
+            breakpoints: {
+                600: {
+                    slidesPerView: 2
+                }
+            }
+        });
+    </script>
+
+</body>
+</html>
